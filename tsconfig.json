@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "typeRoots": [
+        "./node_modules/@types",
+        "./src/express.d.ts"
+      ]      
+    },
+    "include": [
+      "src/**/*.ts"
+, "knexfile.ts" ,  ]
+  }
+  
