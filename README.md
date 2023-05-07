@@ -130,7 +130,7 @@ Authorization: Bearer eyJhbGciOiJIUzI
 
 Response:
 
-```json
+```
 {
   "id": 1,
   "name": "Item 1",
@@ -156,7 +156,7 @@ Authorization: Bearer eyJhbGciOiJIUzI
 
 Response:
 
-```json
+```
 {
   "id": 4,
   "name": "Item 4",
@@ -176,9 +176,12 @@ Authorization: Bearer eyJhbGciOiJIUzI
 {
   "name": "Updated Item 1",
   "description": "This is the updated item 1",
-  "price": 12.99Response:
+  "price": 12.99
+  }
+  ```
+Response:
 
-```json
+```
 [
   {
     "id": 1,
@@ -212,7 +215,7 @@ Authorization: Bearer eyJhbGciOiJIUzI
 
 Response:
 
-```json
+```
 {
   "id": 1,
   "name": "Item 1",
@@ -238,7 +241,7 @@ Authorization: Bearer eyJhbGciOiJIUzI
 
 Response:
 
-```json
+```
 {
   "id": 4,
   "name": "Item 4",
@@ -264,7 +267,7 @@ Authorization: Bearer eyJhbGciOiJIUzI
 
 Response:
 
-```json
+```
 {
   "id": 1,
   "name": "Updated Item 1",
@@ -284,7 +287,7 @@ Authorization: Bearer eyJhbGciOiJIUzI
 
 Response:
 
-```json
+```
 {
   "1 Item succesfully deleted"
 }
